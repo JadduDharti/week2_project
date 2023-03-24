@@ -58,7 +58,11 @@ while True:
     #Computer choode rndomly any number
     comp_choice = random.randint(1,3)
 
+
     #initialize the computer variable
+=======
+    #initialize the computer veriable
+
     
     if comp_choice == 1:
         comp_choice_name = "rock"
@@ -68,7 +72,11 @@ while True:
         comp_choice_name == "scissor"
     
     print("Computer choice is: ", comp_choice_name.title())
+
     print(f"{choice_name.title()} vs. {comp_choice_name.title()}")
+=======
+    print(f"{choice_name} vs. {comp_choice_name}")
+
 
     #checking the conditions for draw or tie
 
@@ -76,6 +84,7 @@ while True:
         result = "TIE"
 
     #Checking condition for winner
+
     #if user pick is equal to rock and comp is equal to paper, result =
     if(choice == 1 and comp_choice == 2):
         result = "PAPER"
@@ -93,6 +102,10 @@ while True:
         result = "SCISSORS"
     elif(choice == 3 and comp_choice == 2):
         result = "SCISSORS"
+=======
+
+
+
 
 
 
