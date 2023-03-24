@@ -68,7 +68,7 @@ while True:
         comp_choice_name == "scissor"
     
     print("Computer choice is: ", comp_choice_name.title())
-    print(f"{choice_name} vs. {comp_choice_name}")
+    print(f"{choice_name.title()} vs. {comp_choice_name.title()}")
 
     #checking the conditions for draw or tie
 
@@ -98,11 +98,10 @@ while True:
 
     ans = input("Do you want to play again? (yes / no): ").lower()
 
-    if ans == "n":
+    if ans == "no":
         print("Nice to play with you")
         break;
-
-
+    
 
 
     
